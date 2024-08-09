@@ -1,0 +1,7 @@
+#!/usr/bin/env sh
+
+echo "commenting in Rive"
+echo "Running formatting script..."
+npx prettier --write .
+echo "Staging changes..."
+git add .
